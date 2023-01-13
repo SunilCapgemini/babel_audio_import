@@ -1,0 +1,21 @@
+{
+  "name": "babel-playground-boilerplate",
+  "version": "1.0.0",
+  "description": "Babel out of the box",
+  "main": "index.html",
+  "babel": [
+    "./.babelrc"
+  ],
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "babel": "6.23.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
